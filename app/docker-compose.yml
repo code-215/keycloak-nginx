@@ -13,8 +13,8 @@ services:
       KEYCLOAK_ADMIN_PASSWORD: admin
       KC_PROXY: edge
       KC_HTTP_ENABLED: true
-      KC_HOSTNAME_ADMIN_URL: https://localhost:7443
-      KC_HOSTNAME_URL: https://localhost:7443
+      KC_HOSTNAME_ADMIN_URL: https://localhost:8443
+      KC_HOSTNAME_URL: https://localhost:8443
     depends_on:
       postgres_keycloak_demo:
         condition: service_healthy
